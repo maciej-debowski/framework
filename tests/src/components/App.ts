@@ -1,4 +1,4 @@
-import { Component, Reference } from 'framework'
+import { Component, Reference } from 'cokeframework'
 import ButtonRate from './ButtonRate'
 
 export default class App extends Component {

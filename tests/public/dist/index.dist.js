@@ -477,7 +477,7 @@ var __extends = this && this.__extends || function () {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-var framework_1 = __webpack_require__(/*! framework */ "./packages/packages.ts");
+var cokeframework_1 = __webpack_require__(/*! cokeframework */ "./packages/packages.ts");
 var ButtonRate_1 = __webpack_require__(/*! ./ButtonRate */ "./tests/src/components/ButtonRate.ts");
 var App = /** @class */function (_super) {
   __extends(App, _super);
@@ -510,7 +510,7 @@ var App = /** @class */function (_super) {
     this.nameRef = this.createRef("name");
   };
   return App;
-}(framework_1.Component);
+}(cokeframework_1.Component);
 exports["default"] = App;
 
 /***/ }),
@@ -548,7 +548,7 @@ var __extends = this && this.__extends || function () {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-var framework_1 = __webpack_require__(/*! framework */ "./packages/packages.ts");
+var cokeframework_1 = __webpack_require__(/*! cokeframework */ "./packages/packages.ts");
 var ButtonRate = /** @class */function (_super) {
   __extends(ButtonRate, _super);
   function ButtonRate() {
@@ -573,10 +573,10 @@ var ButtonRate = /** @class */function (_super) {
     };
   };
   ButtonRate.prototype.onMounted = function () {
-    this.rateRef = new framework_1.Reference(this, "rate");
+    this.rateRef = new cokeframework_1.Reference(this, "rate");
   };
   return ButtonRate;
-}(framework_1.Component);
+}(cokeframework_1.Component);
 exports["default"] = ButtonRate;
 
 /***/ })
@@ -620,9 +620,9 @@ var exports = __webpack_exports__;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-var framework_1 = __webpack_require__(/*! framework */ "./packages/packages.ts");
+var cokeframework_1 = __webpack_require__(/*! cokeframework */ "./packages/packages.ts");
 var App_1 = __webpack_require__(/*! ./components/App */ "./tests/src/components/App.ts");
-var app = new framework_1.App("#app", new App_1["default"]());
+var app = new cokeframework_1.App("#app", new App_1["default"]());
 })();
 
 /******/ })()

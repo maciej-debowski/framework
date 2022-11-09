@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "framework": "file:.."
+    "cokeframework": "file:.."
   },
   "devDependencies": {
     "ts-loader": "^9.4.1",

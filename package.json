@@ -1,5 +1,5 @@
 {
-  "name": "framework",
+  "name": "cokeframework",
   "version": "1.0.0",
   "description": "",
   "main": "packages/packages.ts",

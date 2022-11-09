@@ -1,4 +1,4 @@
-import { Component, Reference } from 'framework'
+import { Component, Reference } from 'cokeframework'
 
 export default class ButtonRate extends Component {
     private rateRef: Reference;
