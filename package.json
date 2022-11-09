@@ -1,0 +1,22 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "packages/packages.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  },
+  "dependencies": {
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4"
+  }
+}
